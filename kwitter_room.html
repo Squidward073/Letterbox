@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>𝓛𝓮𝓽𝓽𝓮𝓻𝓫𝓸𝔁</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger">𝓛𝓸𝓰𝓸𝓾𝓽</button>
+	<center>
+		<h1 class="header">	
+			𝓛𝓮𝓽𝓽𝓮𝓻𝓫𝓸𝔁 𝓡𝓸𝓸𝓶𝓼
+			<sup>
+				<img src="icons8-mail-100.png">
+			</sup>
+		</h1>
+		<h3 id="user_name" class="color_grey"></h3>
+		<div class="form-group input_div_room_page">
+	     
+			<label class="color_grey">𝐵𝓎 𝓂𝒶𝓀𝒾𝓃𝑔 𝒶 𝓇𝑜𝑜𝓂, 𝓎𝑜𝓊 𝒸𝒶𝓃 𝒸𝒽𝒶𝓉 𝓌𝒾𝓉𝒽 𝒻𝓇𝒾𝑒𝓃𝒹𝓈!</label>
+			<br>
+			<br>
+		</div>
+		<button class="btn btn-success" id="button_makeroom" onclick="addRoom();">𝑀𝒶𝓀𝑒 𝒶 𝑅𝑜𝑜𝓂!</button>
+		<br>
+		<br>
+		<br>
+		
+		<input type="text" id="room_name" class="form-control" placeholder="𝑀𝒶𝓀𝑒 𝒶 𝑅𝑜𝑜𝓂!">
+		<br>
+		<br>
+		<br>
+
+		
+		
+
+		<h3>-----------------------------------------------------</h3>
+		 <span></span><h3 class="color_grey">𝒯𝓇𝑒𝓃𝒹𝒾𝓃𝑔 𝑅𝑜𝑜𝓂𝓈</h3><span></span><img src="icons8-mail-100.png">
+		 <div id="output"></div>
+
+	</center>
+</div>
+<script src="kwitter_room.js"></script>
+</body>
+</html>
